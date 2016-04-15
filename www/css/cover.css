@@ -1,0 +1,74 @@
+*{margin:0px;padding:0px}
+body{font-family: Arial, Helvetica, sans-serif;background-color: #e9eaed;color: #333333;}
+#container{margin:0 auto;width:900px}
+#timelineContainer{width:100%;position:relative}
+#timelineBackground {
+height: 315px;
+position: relative;
+border-left: 1px solid #333333;
+border-right: 1px solid #333333;
+margin-top: -20px;
+overflow: hidden;
+background-color:#ffffff;
+}
+#timelineProfilePic {
+width: 170px;
+height: 170px;
+border: 1px solid #666666;
+background-color: #ffffff;
+position: absolute;
+margin-top: -145px;
+margin-left: 20px;
+z-index: 1000;
+overflow: hidden;
+}
+#timelineTitle {
+color: #ffffff;
+font-size: 24px;
+margin-top: -45px;
+position: absolute;
+margin-left: 206px;
+font-weight: bold;
+text-rendering: optimizelegibility;
+text-shadow: 0 0 3px rgba(0,0,0,.8);
+z-index: 999;
+text-transform: capitalize;
+}
+#timelineShade {
+min-height: 95px;
+position: absolute;
+margin-top: -95px;
+width: 100%;
+background:url(images/timeline_shade.png);
+}
+.timelineUploadBG {
+position: absolute;
+margin-top: 50px;
+margin-left: 813px;
+height: 32px;
+width: 32px;
+}
+#timelineNav {
+border: 1px solid #d6d7da;
+background-color: #ffffff;
+min-height: 43px;
+margin-bottom: 10px;
+position: relative;
+}
+
+.uploadFile {
+background: url('images_bg/whitecam.png') no-repeat;
+height: 32px;
+width: 32px;
+overflow: hidden;
+cursor: pointer;
+}
+.uploadFile input {
+filter: alpha(opacity=0);
+opacity: 0;
+margin-left: -110px;
+}
+.custom-file-input {
+height: 25px;
+cursor: pointer;
+}

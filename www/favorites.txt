@@ -1,0 +1,43 @@
+<ul>
+  <li>
+                            <i class="sprite-bg talk-icon flLt" style="top:4px"></i>
+                            <p>
+                                <strong class="flLt">Music: </strong>
+                                <span class="add-details">CSB12059	</span>
+                            </p>
+                        </li>
+						
+						
+						 <li>
+                            <i class="sprite-bg talk-icon flLt" style="top:4px"></i>
+                            <p>
+                                <strong class="flLt">Movies: </strong>
+                                <span class="add-details">CSB12059	</span>
+                            </p>
+                        </li>
+						
+						
+						 <li>
+                            <i class="sprite-bg talk-icon flLt" style="top:4px"></i>
+                            <p>
+                                <strong class="flLt">Books: </strong>
+                                <span class="add-details">CSB12059	</span>
+                            </p>
+                        </li>
+						
+						
+						
+						
+  <li>
+                            <i class="sprite-bg talk-icon flLt" style="top:4px"></i>
+                            <p>
+                                <strong class="flLt">Sports: </strong>
+                                <span class="add-details">KMH	</span>
+                            </p>
+                        </li>
+						
+
+						
+												
+
+						</ul>

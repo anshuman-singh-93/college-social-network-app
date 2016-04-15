@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sNr1{ width:100%; height:100%;}
+body{ margin:0 auto; background-color:#066}
+.center{ width:100%; height:95%; position:absolute; top:0px;  background-color:rgba(0, 153, 153, 0.1); }
+ul,li{ list-style-type:none;}
+
+.menu-link {
+  position: absolute;
+  font-size: 1.5em; top:2px;
+}
+
+.menu-link:link,
+.menu-link:visited {
+  color: #fff;
+  background: rgba(0, 0, 0, .4);
+  border-radius: 4px;
+  padding: 10px 12px;
+}
+
+.menu-link:hover,
+.menu-link:active {
+  color: #25B89A;
+  background: rgba(0, 0, 0, .6);
+}
+h2 {
+  font-size: 2em;
+  margin: 1.2em 0 0 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+a:link,
+a:visited {
+  color: #25B89A;
+}
+
+a:hover,
+a:active {
+  color: #16a085;
+}
+
+.panel {
+  background: #2C3E50;
+  z-index: 9999;
+  position: fixed;
+  left: -15.625em; /*or width of your navigation panel*/
+  width: 15.625em; /*should match the above value*/
+}
+
+.panel ul {
+  border-top: 2px solid #34495D;
+}
+
+.panel a {
+  display: block;
+  border-bottom: 2px solid #34495D;
+  padding: 1em;
+}
+
+.panel a:link,
+.panel a:visited {
+  color: #fff;
+}
+
+.panel a:hover,
+.panel a:active {
+  background: #25B89A;
+}
+
+.nav-icon {
+  margin-right: 6px;
+}
+
+.item_container{ width:1000px; height:500px; position:relative; margin:0 auto; top:10px;}
+.item_container_col{ width:280px; height:350px; display:inline-block; min-width:250px;}
+
+#view{}
+#like_count{ margin-left:50px;}
+#repo{ margin-left:50px;}
+#view_r1,#like_c_r1,#repo_r1{ width:inherit; height:60px; padding-top:5px; text-align:center; 
+font-family: Papyrus, fantasy;
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400; letter-spacing:1.5px; font-weight:800 !important; cursor:pointer;
+	line-height: 20px; text-align:center; text-shadow:1px 1px 1px #999;}
+	
+	
+	#like_c_r1{ background-image:url(../img/thumb_up_arrow_vote_like-512.png); background-size:contain; background-repeat:no-repeat;}
+	#view_r1{ background-image:url(../img/photo.jpg); background-size:contain; background-repeat:no-repeat;}
+	#repo_r1{ background-image:url(../img/rep_man_1.png); background-size:contain; background-repeat:no-repeat;}
+	
+#view_r2,#like_c_r2,#repo_r2{ width:inherit; position:fixed; top:180px; height:220px; background-color:darkcyan;
+   box-shadow:1px 1px 1px #096; border-radius:5px;
+
+}
+
+#view_ajax,#like_ajax,#repo_ajax{ color:#306 !important;}
+
+.header{ width:100%; height:60px; background-color:darkcyan;box-shadow:1px 1px 1px #0C9;}
+.logo{ width:100px; height:inherit;display:inline-block; float:left; position:relative; left:20px;}
+.header_c{ width:600px; text-align:left;font-size: 26px; margin-left:10px;
+font-weight: normal; padding-top:5px;
+font-family: Arial;
+letter-spacing: 0.3px; text-shadow:1px 1px 1px #666; display:inline-block; height:inherit; }
+
+.header_r{ width:160px; height:inherit; float:right; margin-right:50px;}
+.header_r_col1{ width:90px; height:inherit; display:inline-block; }
+.header_r_col2{ width:60px; height:inherit; display:inline-block; }
+#u_pic_h{ width:60px ;height:60px; background-color:#096; border-radius:50%; position:relative; left:20px;}

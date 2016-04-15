@@ -1,0 +1,4 @@
+.wall_container{ display:block; border-radius:5px; border-width:1px; height:300px;
+ }
+#post_box{resize:none; overflow:hidden; box-shadow:1px 1px 1px blue; position:relative; }
+.left_content{ float:left; display:block; width:35%; height:222px; }
